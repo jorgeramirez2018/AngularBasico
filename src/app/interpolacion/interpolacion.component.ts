@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class InterpolacionComponent {
 
+  titulo = "Universidad Angular";
+  usuario = {
+    nombre: "Juan",
+    apellido: "Perez",
+    edad: 30,
+  }
+  saludar(){
+    return `Hola, mi nombre es ${this.usuario.nombre} ${this.usuario.apellido} y tengo ${this.usuario.edad} años.`;
+  }
+
 }

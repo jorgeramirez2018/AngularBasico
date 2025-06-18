@@ -1,1 +1,12 @@
-<p>interpolacion works!</p>
+<section>
+    <div class="container">
+        <h1 class="text-center text-bg-warning">{{titulo}}</h1>
+        <p>Bienvenido, {{usuario.nombre}} {{usuario.apellido}}</p>
+        <p>Tu edad es: {{usuario.edad}}</p>
+
+        <h2>{{saludar()}}</h2>
+        <h2>En 3 años tendras {{usuario.edad+3}}</h2>
+
+
+    </div>
+</section>
