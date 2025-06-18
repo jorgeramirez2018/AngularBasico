@@ -11,5 +11,5 @@ import { ComponenteEnLineaComponent } from "./componente-en-linea/componente-en-
 })
 export class AppComponent {
   titulo = 'Hola, mi nombres Jorge Y este es primero proyecto con Angular';
-  nombreComponente = 'Componente en Línea';
+  nombreComponente = 'Componente en Líneaaad';
 }
