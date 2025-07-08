@@ -5,10 +5,11 @@ import { ComponenteEnLineaComponent } from "./componente-en-linea/componente-en-
 import { InterpolacionComponent } from "./interpolacion/interpolacion.component";
 import { PadreComponent } from "./padre/padre.component";
 import { HijoComponent } from "./hijo/hijo.component";
+import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent, HijoComponent],
+  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent, HijoComponent, MostrarMensajeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
