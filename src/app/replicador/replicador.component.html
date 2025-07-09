@@ -2,11 +2,12 @@
     <div class="w-50">
         <div class="mb-3">
             <label for="inputTexto">Escribe algo</label>
-            <input type="text" id="inputTexto" (input)="actualizarTexto($event)" >
+            <input type="text" id="inputTexto" (input)="actualizarTexto($event)">
+        </div>
+        <div class="mb-3">
+            <label for="replicarTexto">Texto Replicado</label>
+            <input id="replicarTexto" type="text" [value]="texto" readonly>
         </div>
     </div>
-    <div class="mb-3">
-        <label for="replicarTexto">Texto Replicado</label>
-        <input id="replicarTexto" type="text" [value]="texto" readonly>
-    </div>
+
 </div>
